@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="./BentoStyle.css">
+        </head>
+    <title> Bento Grid</title>
+    <body>
+        <div class="content">
+            <div class="box2">
+                <h1>Create and schedule content quicker.</h1>
+            </div>
+            <div class="box1">
+                <h1>Social Media 10x <em>Faster</em> with AI</h1>
+                <p class="small-font">⭐ ⭐ ⭐ ⭐ ⭐<br>
+                    Over 4,000 5-star reviews
+                </p>
+            </div>
+            <div class="box4">
+                <h2>Schedule to social media.</h2>
+            </div>
+            <div class="box3">
+                <h1>Write Your Content Using AI.</h1>
+            </div>
+        </div>
+    </body>
+</html>
