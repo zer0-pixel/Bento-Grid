@@ -1,6 +1,7 @@
 html{
     background-color: brown;
     width: 1440px;
+    height: 1280px;
     margin: 10%;
 }
 body{
@@ -10,11 +11,12 @@ body{
     padding-right: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
+    height: fit-content;
 }
 .content{
     display: grid;
-    grid-template-columns: 19% 55% 21%;
-    gap: 29px;
+    grid-template-columns: 24% 53% 21%;
+    gap: auto;
     background-color: aqua;
     width: fit-content;
     height: fit-content;
@@ -24,32 +26,60 @@ body{
     padding: 20px;
 
 }
+.content > div.left-side{
+    padding: 20px;
+}
 .content > div.box1{
     background-color: hsl(256, 67%, 59%);
     align-self: start;
     font-size: x-large;
     text-align: center;
     color: hsl(0, 0%, 100%);
+    grid-column: 2;
 }
-.content > div.box2{
+.content > div.left-side > div.box2{
     background-color: hsl(31, 66%, 93%);
     align-self: start;
-    height: 85%;
+    height: 70%;
     padding-top: 20%;
+    font-size: large;
+    grid-column: 1;
+    grid-row: 1;
 }
-.content > div.box3{
+.content > div.left-side > div.box3{
     background-color: hsl(39, 100%, 71%);
     align-self: start;
+    height: auto;
+    grid-column: 1;
+
 }
 .content > div.box4{
     background-color: hsl(254, 88%, 90%);
-    height: 90%;
+    grid-column: 3;
+    grid-row: span 3;
+
 }
-.box1, .box2, .box3, .box4, .create-p{
+.content > div.box5{
+    background-color: hsl(0, 0%, 100%);
+    width: 30%;
+    grid-column: 2;
+    grid-row: 2;
+}
+.content > div.box6{
+    background-color: hsl(39, 100%, 71%);
+    width: 30%;
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: end;
+}
+.box1, .box2, .box3, .box4, .box5, .box6, .create-p{
     border-radius: 10px 10px 10px 10px;
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
     font-weight: 500;
+}
+.box2, .box3{
+    padding: 20px;
 }
 .o-highlight{
     color: hsl(39, 100%, 71%);
@@ -60,12 +90,11 @@ body{
 .create-p{
     background-color: hsl(39, 100%, 71%);
     border-radius: 50px 50px 50px 50px;
-    padding: 10px;
+    padding: 15px;
 }
 .small-font{
     font-size: larger;
 }
-
 
 
 
