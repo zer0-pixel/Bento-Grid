@@ -1,3 +1,5 @@
+<!--Author: Thomas Johnson-->
+<!--Date: 4/24/2025-->
 <!DOCTYPE html>
 <html lang=en>
     <head>
@@ -7,12 +9,20 @@
     <title> Bento Grid</title>
     <body>
         <div class="content">
-            <div class="box2">
-                <h2>
-                    Create and schedule content <span class="p-highlight">quicker.</span>
-                </h2>
-                <a class="create-p p-highlight"><strong>Create Post ✨</strong></a>
+            <div class="left-side">
+                <div class="box2">
+                    <h2>
+                        Create and schedule content <span class="p-highlight"><em>quicker.</em></span>
+                    </h2>
+                    <br>
+                    <a class="create-p p-highlight"><strong>Create Post ✨</strong></a>
+                </div>
+
+                <div class="box3">
+                    <h1>Write your content using AI.</h1>
+                </div>
             </div>
+            
             <div class="box1">
                 <h1>Social Media <span class="o-highlight">10x</span><br><em>Faster</em> with AI</h1>
                 <span class="small-font">⭐ ⭐ ⭐ ⭐ ⭐</span><br><p>Over 4,000 5-star reviews</p>
@@ -20,8 +30,12 @@
             <div class="box4">
                 <h2>Schedule to social media.</h2>
             </div>
-            <div class="box3">
-                <h1>Write Your Content Using AI.</h1>
+            
+            <div class="box5">
+                <h2>Manage multiple accounts and platforms.</h2>
+            </div>
+            <div class="box6">
+                <h2>Maintain a consistent posting schedule.</h2>
             </div>
         </div>
     </body>
