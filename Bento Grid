@@ -9,24 +9,23 @@
     <title> Bento Grid</title>
     <body>
         <div class="content">
-            <div class="left-side">
-                <div class="box2">
-                    <h2>
-                        Create and schedule content <span class="p-highlight"><em>quicker.</em></span>
-                    </h2>
-                    <br>
-                    <a class="create-p p-highlight"><strong>Create Post ✨</strong></a>
-                </div>
+            <div class="box2">
+                <h2>
+                    Create and schedule content <br><span class="p-highlight"><em>quicker.</em></span></h2>
+                <br>
+                <a class="create-p p-highlight"><strong>Create Post ✨</strong></a>
+            </div>
 
-                <div class="box3">
-                    <h1>Write your content using AI.</h1>
-                </div>
+            <div class="box3">
+                <h1>Write your content using AI.</h1>
             </div>
             
+
             <div class="box1">
                 <h1>Social Media <span class="o-highlight">10x</span><br><em>Faster</em> with AI</h1>
                 <span class="small-font">⭐ ⭐ ⭐ ⭐ ⭐</span><br><p>Over 4,000 5-star reviews</p>
             </div>
+
             <div class="box4">
                 <h2>Schedule to social media.</h2>
             </div>
@@ -34,8 +33,18 @@
             <div class="box5">
                 <h2>Manage multiple accounts and platforms.</h2>
             </div>
+
             <div class="box6">
                 <h2>Maintain a consistent posting schedule.</h2>
+            </div>
+
+            <div class="box7">
+                <h1>>56%</h1>
+                <p>faster audience growth</p>
+            </div>
+
+            <div class="box8">
+                <h2>Grow followers with non-stop content.</h2>
             </div>
         </div>
     </body>
